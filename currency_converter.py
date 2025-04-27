@@ -7,11 +7,16 @@ import requests
 load_dotenv()
 
 
-API_KEY = os.getenv('API_KEY')
+import streamlit as st
+import requests
 
+
+API_KEY = st.secrets["API_KEY"]
 API_BASE_URL = f"https://v6.exchangerate-api.com/v6/{API_KEY}/"
 LATEST_RATES_URL = API_BASE_URL + "latest/"
 SUPPORTED_CODES_URL = API_BASE_URL + "codes"
+
+# Your existing code here...
 
 
 CURRENCY_EMOJIS = {
