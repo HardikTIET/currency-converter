@@ -8,10 +8,8 @@ A simple currency converter web app built using **Streamlit**, which allows user
 - **Frosted Glass UI**: Smooth glass effect on the UI elements to make it more aesthetic and visually appealing.
 - **Light/Dark theme toggle**: Automatically switches between light and dark modes depending on the system settings.
 - **Animated buttons and notifications**: Engaging animations when converting currencies and a smooth UI.
-
-## Demo
-
-[]
+## Demo 
+![image](https://github.com/user-attachments/assets/96f4b3cf-8dc5-4927-a596-5b9b9984a6db)
 
 ## Technologies Used
 
