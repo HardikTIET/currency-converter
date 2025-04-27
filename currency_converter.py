@@ -9,10 +9,6 @@ load_dotenv()
 
 API_KEY = os.getenv('API_KEY')
 
-if not API_KEY:
-    raise ValueError("API_KEY not found in .env file")
-
-
 API_BASE_URL = f"https://v6.exchangerate-api.com/v6/{API_KEY}/"
 LATEST_RATES_URL = API_BASE_URL + "latest/"
 SUPPORTED_CODES_URL = API_BASE_URL + "codes"
